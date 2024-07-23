@@ -1,0 +1,3 @@
+.carousel .carousel-status {
+  display: none; /* Masquer le texte de statut "2 of 3" */
+}
