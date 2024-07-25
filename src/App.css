@@ -1,0 +1,35 @@
+
+body,html {
+    background: url('./images/background.jpeg') no-repeat center center fixed;
+    background-size: cover; 
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+  }
+
+  #root {
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color : white; 
+  }
+  
+  .app {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Assure que .app prend toute la hauteur disponible */
+  }
+
+  main {
+    flex: 1; /* Permet à cette section de grandir pour remplir l'espace restant */
+    background-color: rgba(0, 0, 0, 0.5); /* Filtre noir avec 50% d'opacité */
+    margin-top: 4rem; /* Si nécessaire pour espacement supplémentaire */
+    margin-bottom: 2.5rem; /* Si nécessaire pour espacement supplémentaire */
+  }
+  
+
+/* Importation de la police Poppins depuis Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+
+  
