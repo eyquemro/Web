@@ -1,4 +1,3 @@
-import { Height, Margin } from "@mui/icons-material";
 
 //Styles pour les TextFields
 export const textFieldStyle = {
