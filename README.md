@@ -17,13 +17,4 @@ Welcome to my personal website as a cybersecurity engineer. This site is designe
 - **CSS**: Styles and layout.
 - **Bootstrap**: CSS framework for a responsive and modern design (if used).
 - **Git**: Version control for the source code.
-- **GitHub**: Hosting for the source code and version management.
-
-## Installation
-
-To deploy this site locally, follow these steps:
-
-1. **Clone the repository**:
-
-   ```bash
-   git clone https://github.com/your-username/repository-name.git
+- **GitHub**: Hosting for the source code and version management
