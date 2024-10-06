@@ -67,7 +67,7 @@ const Contact = () => {
             </Button>
           </form>
         </Box>
-       
+
         <Typography class="Body1">Phone Number: +33644044073</Typography>
         {success && (
           <motion.div {...motionStyle}>

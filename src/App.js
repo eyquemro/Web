@@ -11,9 +11,10 @@ import Header from "./components/header";
 import Home from "./components/home";
 import Skills from "./components/skills";
 import Contact from "./components/contact";
+import Links from "./components/links";
 
 import AnimatedPage from "./styles/animatedPage";
-import "./app.css";
+import "./App.css";
 
 const AppContent = () => {
   const location = useLocation();
@@ -46,7 +47,15 @@ const AppContent = () => {
             </AnimatedPage>
           }
         />
-        {/*Ajoutezd'autresroutesici*/}
+          {/* <Route
+          path="/links"
+          element={
+            <AnimatedPage key="links">
+              <Links />
+            </AnimatedPage>
+          }
+        /> */}
+        {/*Ajoutez d'autres routes ici*/}
       </Routes>
     </AnimatePresence>
   );

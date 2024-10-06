@@ -17,8 +17,8 @@ const Header = () => (
       <Button sx={buttonStyle} component={RouterLink} to="/contact">
         Contact
       </Button>
-      {/* <Button sx={buttonStyle} component={RouterLink} to="/about">
-        About
+      {/* <Button sx={buttonStyle} component={RouterLink} to="/links">
+        Links
       </Button> */}
     </Toolbar>
   </AppBar>

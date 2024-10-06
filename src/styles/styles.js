@@ -79,17 +79,25 @@ export const formStyle = {
 export const boxStyle = {
   backgroundColor: "rgba(58, 197, 231, 0.5)", // Couleur de fond bleu clair
   boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)", // Ombre légère pour l'effet de profondeur
-  flexDirection: "column", // Affiche les éléments du formulaire en colonne
   display: "flex",
-  minWidth: "25rem",
-  borderRadius: "8px", // Arrondir les coins
-  padding: "1rem", // Espacement interne pour le contenu
-  margin: "1rem",
-};
+  flexDirection: "column", // Affiche les éléments du formulaire en colonne
+  boxSizing: "border-box",  // Inclut le padding et la bordure dans le calcul de la largeur
+  borderRadius: "8px",      // Arrondir les coins
+  padding: "1rem",          // Espacement interne pour le contenu
+  margin: "1rem",           // Marge autour de la boîte
+ };
+
+
 
 export const alignementStyle = {
-  display: "flex",
-  justifyContent: "center",
-  flexWrap: "wrap",
-  position: "relative",
+  display: "flex",         // Activer le modèle flexbox
+  justifyContent: "center", // Centrer horizontalement
+  alignItems: "flex-start", // Aligner en haut (côté début vertical)
+  flexDirection: "row",     // Disposer les éléments en ligne (horizontalement)
+  position: "relative",     // Garder la position relative si nécessaire
+  flexWrap: "wrap",         // Permettre aux éléments de revenir à la ligne si nécessaire
+
+  
+  
 };
+

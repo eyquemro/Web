@@ -19,14 +19,12 @@ import java from "../images/java.webp";
 import csharp from "../images/csharp.webp";
 import aws from "../images/aws.png";
 import docker from "../images/docker.png";
- import webdevelopment from "../images/webdevelopment.webp";
+import webdevelopment from "../images/webdevelopment.webp";
 import react from "../images/react.webp";
 import angular from "../images/angular.png";
 import php from "../images/php.webp";
 import sqlserver from "../images/sqlserver.png";
 import git from "../images/git.webp";
-
-
 
 const skillsData = [
   {
@@ -34,50 +32,50 @@ const skillsData = [
     technologies: [
       {
         name: "Firewall",
-        logo: firewall, 
+        logo: firewall,
         description: "Experience with firewall setup and management.",
       },
       {
         name: "Encryption",
-        logo: encryption, 
+        logo: encryption,
         description: "Proficient in encryption techniques to secure data.",
       },
       {
         name: "Intrusion Detection",
-        logo: monitoring, 
+        logo: monitoring,
         description: "Skills in monitoring network traffic for suspicious activities.",
       },
       {
         name: "Penetration jsing",
-        logo: penetration, 
+        logo: penetration,
         description: "Conducting simulated attacks",
       },
 
     ],
 
   },
- 
+
   {
     domain: "Cloud and Virtualization",
     technologies: [
       {
         name: "AWS",
-        logo: aws, 
+        logo: aws,
         description: "Experience with Amazon Web Services, including S3, EC2, and Lambda.",
       },
       {
         name: "Azure",
-        logo: azure, 
+        logo: azure,
         description: "Knowledge of Microsoft Azure services and deployment.",
       },
       {
         name: "Docker",
-        logo: docker, 
+        logo: docker,
         description: "Containerization using Docker for application deployment.",
       },
       {
         name: "VirtualBox",
-        logo: virtualbox, 
+        logo: virtualbox,
         description: "Experience with VirtualBox for virtual environment setups.",
       },
     ],
@@ -88,27 +86,27 @@ const skillsData = [
     technologies: [
       {
         name: "HTML & CSS",
-        logo: webdevelopment, 
+        logo: webdevelopment,
         description: "Markup and styling for web pages.",
       },
       {
         name: "JavaScript",
-        logo: js, 
+        logo: js,
         description: "Programming for interactive and dynamic web content.",
       },
       {
         name: "React",
-        logo: react, 
+        logo: react,
         description: "Building user interfaces using React.",
       },
       {
         name: "Angular",
-        logo: angular, 
+        logo: angular,
         description: "Developing web applications with Angular.",
       },
       {
         name: "PHP",
-        logo: php, 
+        logo: php,
         description: "Server-side scripting for dynamic web content.",
       },
     ],
@@ -119,27 +117,27 @@ const skillsData = [
     technologies: [
       {
         name: "C#",
-        logo: csharp, 
+        logo: csharp,
         description: "Development of applications using C#.",
       },
       {
         name: "Java",
-        logo: java, 
+        logo: java,
         description: "Backend development using Java.",
       },
       {
         name: "Python",
-        logo: python, 
+        logo: python,
         description: "Scripting and automation using Python.",
       },
       {
         name: "SQL",
-        logo: sqlserver, 
+        logo: sqlserver,
         description: "Database management and query optimization.",
       },
       {
         name: "Git",
-        logo: git, 
+        logo: git,
         description: "Version control and collaboration using Git.",
       },
     ],
@@ -179,13 +177,13 @@ const Skills = () => {
                 <Typography class="Subheading">
                   {skillsData[activeIndex].domain}
                 </Typography>
-           
+
                 {skillsData[activeIndex].technologies.map((tech, techIndex) => (
                   <Box
                     key={techIndex}
                     sx={{ display: "flex", alignItems: "center" }}
                   >
-                    <img src={tech.logo} alt={tech.name}  class="small-image" />
+                    <img src={tech.logo} alt={tech.name} class="small-image" />
                     <Typography class="Body2">
                       {tech.description}
                     </Typography>
