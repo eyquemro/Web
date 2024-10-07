@@ -1,51 +1,49 @@
-import React, { useEffect } from "react";
-import { Box } from "@mui/material";
+import React from "react";
+import { Box, Typography } from "@mui/material";
+import { motion } from "framer-motion";
 import { boxStyle, alignementStyle } from "../styles/styles"; // Assurez-vous que le chemin est correct
+import github from "../images/github.png";  // Ensure the path is correct
+import rootme from "../images/rootme.webp";  // Ensure the path is correct
 
 function Links() {
-  useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://tryhackme.com/badge/3138204";
-    script.async = true;
-
-    // Écouter l'événement de chargement du script
-    script.onload = () => {
-      const badgeContainer = document.getElementById("tryhackme-badge");
-      if (badgeContainer) {
-        badgeContainer.innerHTML = ""; // Vider le contenu précédent
-        badgeContainer.appendChild(script); // Ajouter le script au conteneur
-      }
-    };
-
-    document.body.appendChild(script);
-
-    // Nettoyage
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
-
   return (
     <Box sx={alignementStyle}>
       {/* Bloc GitHub */}
-      <Box sx={boxStyle}>
-        <img src="link-to-github-image" alt="GitHub" />
-        <a href="https://github.com/your-username">GitHub</a>
-      </Box>
+      <motion.div whileHover={{ scale: 1.1 }}>
+        <a href="https://github.com/eyquemro" style={{ textDecoration: "none", color:"inherit" }}>
+        
+          <Box sx={{ ...boxStyle, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+            <Typography className="Subheading">GitHub</Typography>
+            <img src={github} alt="GitHub" style={{ width: "5.5rem", height: "5.5rem" }} />
+          </Box>
+        </a>
+      </motion.div>
 
       {/* Bloc TryHackMe */}
-      <Box sx={boxStyle}>
-        <img src="link-to-tryhackme-image" alt="TryHackMe" />
-        <a href="https://tryhackme.com/p/eyquemro">TryHackMe</a>
-        {/* Badge TryHackMe */}
-        <div id="tryhackme-badge">Le badge n'est pas disponible à cause d'une restriction de cookie.</div>
-      </Box>
+      <motion.div whileHover={{ scale: 1.1 }}>
+        <Box sx={{ ...boxStyle, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+          <Typography className="Subheading">TryHackme</Typography>
+          <iframe
+            src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=3138204"
+            style={{
+              border: "none",
+              width: "110%",
+              height: "90px",
+              transform: "scale(0.8)", // Réduisez le facteur d'échelle selon vos besoins
+            }}
+          ></iframe>
+        </Box>
+      </motion.div>
 
       {/* Bloc Root-Me */}
-      <Box sx={boxStyle}>
-        <img src="link-to-rootme-image" alt="Root-Me" />
-        <a href="https://root-me.org/your-username">Root-Me</a>
-      </Box>
+      <motion.div whileHover={{ scale: 1.1 }}>
+        <a href="https://www.root-me.org/eyquemro"  style={{ textDecoration: "none", color:"inherit"  }}>
+          <Box sx={{ ...boxStyle, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+            <Typography className="Subheading">Root-Me</Typography>
+            <img src={rootme} alt="Root-Me" style={{ width: "5.5rem", height: "5.5rem" }} />
+          </Box>
+        </a>
+      </motion.div>
     </Box>
   );
 }

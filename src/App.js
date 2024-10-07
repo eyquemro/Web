@@ -47,14 +47,14 @@ const AppContent = () => {
             </AnimatedPage>
           }
         />
-          {/* <Route
+          <Route
           path="/links"
           element={
             <AnimatedPage key="links">
               <Links />
             </AnimatedPage>
           }
-        /> */}
+        />
         {/*Ajoutez d'autres routes ici*/}
       </Routes>
     </AnimatePresence>
