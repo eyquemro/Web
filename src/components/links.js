@@ -13,7 +13,7 @@ function Links() {
         <a href="https://github.com/eyquemro" style={{ textDecoration: "none", color:"inherit" }}>
         
           <Box sx={{ ...boxStyle, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
-            <Typography className="Subheading">GitHub</Typography>
+            <Typography class="Subheading">GitHub</Typography>
             <img src={github} alt="GitHub" style={{ width: "5.5rem", height: "5.5rem" }} />
           </Box>
         </a>
@@ -22,7 +22,7 @@ function Links() {
       {/* Bloc TryHackMe */}
       <motion.div whileHover={{ scale: 1.1 }}>
         <Box sx={{ ...boxStyle, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
-          <Typography className="Subheading">TryHackme</Typography>
+          <Typography class="Subheading">TryHackme</Typography>
           <iframe
             src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=3138204"
             style={{
@@ -39,7 +39,7 @@ function Links() {
       <motion.div whileHover={{ scale: 1.1 }}>
         <a href="https://www.root-me.org/eyquemro"  style={{ textDecoration: "none", color:"inherit"  }}>
           <Box sx={{ ...boxStyle, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
-            <Typography className="Subheading">Root-Me</Typography>
+            <Typography class="Subheading">Root-Me</Typography>
             <img src={rootme} alt="Root-Me" style={{ width: "5.5rem", height: "5.5rem" }} />
           </Box>
         </a>

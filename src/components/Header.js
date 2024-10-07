@@ -14,12 +14,13 @@ const Header = () => (
       <Button sx={buttonStyle} component={RouterLink} to="/skills">
         Skills
       </Button>
-      <Button sx={buttonStyle} component={RouterLink} to="/contact">
-        Contact
-      </Button>
       <Button sx={buttonStyle} component={RouterLink} to="/links">
         Links
       </Button>
+      <Button sx={buttonStyle} component={RouterLink} to="/contact">
+        Contact
+      </Button>
+    
     </Toolbar>
   </AppBar>
 );
