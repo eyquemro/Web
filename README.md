@@ -2,19 +2,21 @@
 
 ## Introduction
 
-Welcome to my personal website as a cybersecurity engineer. This site is designed to give you an overview of my skills, experience, and projects in the field of cybersecurity.
+Welcome to my personal website as a cybersecurity engineer. This site showcases my skills, experience, and projects, offering insight into my expertise in the cybersecurity field.
 
 ## Features
 
-- **Personal Overview**: Learn about my professional background, skills, and achievements in cybersecurity.
-- **Projects**: Explore the projects I have worked on, including case studies and demonstrations of security solutions.
-- **Contact**: Find my contact information for any professional opportunities or potential collaborations.
+- **Home**: A presentation of my background, career journey, and cybersecurity expertise.
+- **Skills**: A detailed list of my technical abilities and proficiencies, including security tools, programming languages, and more.
+- **Contact**: Reach out to me directly via email, powered by a Go backend server hosted on Google Cloud Platform (GCP).
+- **Links**: Explore my external profiles, including GitHub, TryHackMe, and RootMe, where I showcase my ongoing work and challenges in cybersecurity.
 
 ## Technologies Used
 
-- **React**: JavaScript library for building dynamic user interfaces.
-- **HTML**: Basic structure of the site.
-- **CSS**: Styles and layout.
-- **Bootstrap**: CSS framework for a responsive and modern design (if used).
-- **Git**: Version control for the source code.
-- **GitHub**: Hosting for the source code and version management
+- **React**: JavaScript library for creating interactive and responsive user interfaces.
+- **HTML & CSS**: Core technologies for structuring and styling the website.
+- **Bootstrap**: Framework for responsive design (if applicable).
+- **Go**: Backend server responsible for handling contact form submissions.
+- **Google Cloud Platform (GCP)**: Hosting and deployment for the website and backend services.
+- **Git**: Version control for tracking the source code.
+- **GitHub**: Hosting the source code repository and managing version control.
