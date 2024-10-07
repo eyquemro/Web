@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/Web/static/css/main.d4ef1744.css",
-    "main.js": "/Web/static/js/main.911831b8.js",
+    "main.js": "/Web/static/js/main.71b299f4.js",
     "static/media/background.jpeg": "/Web/static/media/background.a42ebb4800f47badaf32.jpeg",
     "static/media/profil.jpg": "/Web/static/media/profil.9db55ec5c2cad55218ab.jpg",
     "static/media/test.png": "/Web/static/media/test.1932a3618fe142cff154.png",
+    "static/media/rootme.webp": "/Web/static/media/rootme.43fdf843e1f8c29a7458.webp",
     "static/media/firewall.webp": "/Web/static/media/firewall.af0fb53d3a1cac2ef4b0.webp",
     "static/media/webdevelopment.webp": "/Web/static/media/webdevelopment.e6a4b388456fce5dd037.webp",
     "static/media/penetration.webp": "/Web/static/media/penetration.5d25cba26d4bbe43ac26.webp",
@@ -23,10 +24,10 @@
     "static/media/azure.webp": "/Web/static/media/azure.4b863558cbec5f8c4abd.webp",
     "index.html": "/Web/index.html",
     "main.d4ef1744.css.map": "/Web/static/css/main.d4ef1744.css.map",
-    "main.911831b8.js.map": "/Web/static/js/main.911831b8.js.map"
+    "main.71b299f4.js.map": "/Web/static/js/main.71b299f4.js.map"
   },
   "entrypoints": [
     "static/css/main.d4ef1744.css",
-    "static/js/main.911831b8.js"
+    "static/js/main.71b299f4.js"
   ]
 }
