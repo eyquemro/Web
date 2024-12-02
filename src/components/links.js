@@ -86,7 +86,7 @@ function Links() {
             <Typography class="Subheading">Root-Me</Typography>
             <img
               src={rootme}
-              alt="Root-Me"
+              alt="Root-M"
               style={{ width: "5.5rem", height: "5.5rem" }}
             />
           </Box>
