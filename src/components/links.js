@@ -22,7 +22,7 @@ function Links() {
       {/* Bloc GitHub */}
       <motion.div whileHover={{ scale: 1.1 }}>
         <a
-          href="https://github.com/eyquemro"
+          href="http://github.com/eyquemro"
           style={{ textDecoration: "none", color: "inherit" }}
         >
           <Box
