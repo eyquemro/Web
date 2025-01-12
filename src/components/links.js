@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { boxStyle, alignementStyle } from "../styles/styles"; // Assurez-vous que le chemin est correct
 import github from "../images/github.png"; // Ensure the path is correct
 import rootme from "../images/rootme.webp"; // Ensure the path is correct
+import tryhackme from "../images/tryhackme.png"; // Ensure the path is correct
 import Cookies from "js-cookie";
 
 function Links() {
@@ -46,8 +47,12 @@ function Links() {
 
       {/* Bloc TryHackMe */}
       <motion.div whileHover={{ scale: 1.1 }}>
+      <a
+          href="http://tryhackme.com/eyquemro"
+          style={{ textDecoration: "none", color: "inherit" }}
+        >
         <Box
-          sx={{
+           sx={{
             ...boxStyle,
             display: "flex",
             flexDirection: "column",
@@ -55,17 +60,14 @@ function Links() {
             justifyContent: "center",
           }}
         >
-          <Typography class="Subheading">TryHackme</Typography>
-          <iframe
-            src="http://tryhackme.com/api/v2/badges/public-profile?userPublicId=3138204"
-            style={{
-              border: "none",
-              width: "110%",
-              height: "90px",
-              transform: "scale(0.8)", // Réduisez le facteur d'échelle selon vos besoins
-            }}
-          ></iframe>
+          <Typography class="Subheading">TryHackMe</Typography>
+          <img
+            src={tryhackme}
+            alt="TryHackme"
+            style={{ width: "5.5rem", height: "5.5rem" }}
+          />
         </Box>
+        </a>
       </motion.div>
 
       {/* Bloc Root-Me */}
@@ -86,7 +88,7 @@ function Links() {
             <Typography class="Subheading">Root-Me</Typography>
             <img
               src={rootme}
-              alt="Root-M"
+              alt="Root-Me"
               style={{ width: "5.5rem", height: "5.5rem" }}
             />
           </Box>
